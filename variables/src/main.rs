@@ -17,7 +17,7 @@ fn main() {
     println!("tup.0 = {}, tup.1 = {}, tup.2 = {}", tup.0, tup.1, tup.2);
 
     // array
-    let array = [
+    let array: [&str; 12] = [
         "January",
         "February",
         "March",
